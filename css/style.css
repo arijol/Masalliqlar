@@ -1,0 +1,184 @@
+/* outfit-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/outfit-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* outfit-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/outfit-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* young-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Young Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/young-serif-v2-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+body {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f564d;
+  background-color: #f3e5d7;
+  padding-top: 123px;
+  padding-bottom: 123px;
+}
+.divider {
+  margin-bottom: 32px;
+  border-bottom: 0;
+  border: 1px solid #e3ddd7;
+}
+.container {
+  width: 100%;
+  max-width: 776px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+.main-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 40px;
+}
+.title {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: #312e2c;
+  margin-bottom: 24px;
+}
+.intro-content {
+  margin-bottom: 32px;
+}
+
+.preparation-time {
+  padding: 28px;
+  background-color: #fff7fb;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.preparation-time-title {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #7a284e;
+}
+.preparation-time-list {
+}
+
+.ingredients {
+  margin-bottom: 32px;
+}
+.ingredients-list {
+  margin-left: 16px;
+}
+.ingredients-item,
+.preparation-time-item {
+  list-style: disc;
+  padding-left: 16px;
+  margin-bottom: 8px;
+}
+
+.ingredients-item:not(:last-child),
+.preparation-time-item:not(:last-child),
+.instructions-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.ingredients-title,
+.instructions-title {
+  font-size: 24px;
+  font-family: "Young Serif", serif;
+  margin-bottom: 24px;
+  line-height: 28px;
+  color: #854652;
+}
+
+.instructions-list {
+  margin-bottom: 16px;
+}
+.instructions-item {
+  list-style: decimal;
+}
+body {
+  font-family: "Young Serif", serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.nutrition-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #4c2b0b;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  text-align: left;
+}
+
+td:nth-child(2) {
+  text-align: right;
+  color: #6e3d09;
+  font-weight: bold;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
